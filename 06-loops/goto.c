@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    // the goto statement, on the other hand, is capableof jumping to any 
+    // the goto statement, on the other hand, is capable of jumping to any 
     // statement in a function, provided that the statement has a label.
     // the goto statement can be helpful once in a while. Consider the problem 
     // of exiting a loop from within a switch statement. As we saw earlier, the 

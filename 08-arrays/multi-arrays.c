@@ -76,7 +76,7 @@ int main(void)
     // 5. Traversing columns first (m[i][j] with i changing fastest) can cause many cache misses for large arrays and significantly reduce performance.
     // This is one of the earliest examples of a deeper principle in systems programming:
     // The algorithm's complexity matters, but the pattern in which it touches memory can matter almost as much on modern hardware.
-        
+
 
     return 0;
 }

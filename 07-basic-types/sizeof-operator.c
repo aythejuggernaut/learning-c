@@ -10,7 +10,7 @@ int main(void) {
     // The %zu conversion specifier is used to print an object of
     // type size_t. The size_t type is an unsigned integer type that
     // is used to represent the size of objects in memory. The %zd
-    // conversion specifier is used to print an object of type size_t in
+    // conversion specifier is used to print an object of type ssize_t in
     // a signed decimal format.
     
     printf("%zu\n", sizeof(int));
@@ -43,6 +43,9 @@ int main(void) {
     
     printf("%lu\n", (unsigned long)sizeof(int)); // This is the C89 way
     printf("%zu\n", sizeof(int)); // This is the C99 way
+
+    // Always use %zu for size_t values to avoid printing misleading or corrupted sign-extended numbers.
+    // Use %zd strictly for signed integer types like ssize_t.
 
     return 0;
 }

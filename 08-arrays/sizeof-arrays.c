@@ -24,7 +24,7 @@ int main(void) {
     // possibly get wrong).
 
     // One minor annoyance is that some compilers produce a warning message for 
-    // the expression i ‹ sizeof (a) / sizeof (a [0]). The variable i probably
+    // the expression i ‹ sizeof(a) / sizeof(a[0]). The variable i probably
     // has the type int (a signed type), whereas sizeof produces a value of 
     // type size_t (an unsigned type). comparing a signed integer with an 
     // unsigned integer is a dangerous practice, although in this case it's 

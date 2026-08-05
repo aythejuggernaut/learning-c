@@ -29,7 +29,7 @@ int main(void) {
     
     printf("Blast off!\n");
 
-    // If we omit the third expression in a f o r statement, the loop body is
+    // If we omit the third expression in a for statement, the loop body is
     // responsible for ensuring that the value of the second expression
     // eventually becomes false.
     for (i = 10; i > 0; )
@@ -54,22 +54,22 @@ int main(void) {
     // The while version is clearer and therefore preferable.
     // If the second expression is missing, it defaults to a true value, so the
     // for statement doesn't terminate (unless stopped in some other fashion).
-    // For example, some programmers use the following f o r statement to establish an infinite loop:
+    // For example, some programmers use the following for statement to establish an infinite loop:
     
-    // for (;;)
-    //     printf("This loop runs forever.");
+    for (;;)
+        printf("This loop runs forever.");
 
     // Incidentally, a for statement may declare more than one variable,
     // provided that all variables have the same type:
-    // for (int i = 0 , j = 0; i < n ; i++)
+    for (int i = 0 , j = 0; i < 10 ; i++);
 
     // Comma operator: a way to evaluate two expressions in place of a single
     // expression. It causes both expressions to be evaluated, but only the
     // value of the second expression is used as the value of the
     // comma-separated expression.
-    // for (int i = 0, j = 0; i < 10; i++, j++) {
-    //     printf("i = %d, j = %d\n", i, j);
-    // }
+    for (int i = 0, j = 0; i < 10; i++, j++) {
+        printf("i = %d, j = %d\n", i, j);
+    }
 
     // For example, suppose that we want to initialize two variables when
     // entering a for statement. Instead of writing

@@ -6,7 +6,7 @@ int main(void) {
     frac_part = f - (int)f;
     // The cast expression ( int ) f represents the result of converting the
     // value of f to type int. C's usual arithmetic conversions then require
-    // that ( int ) f be converted back to type fl o a t before the subtraction
+    // that ( int ) f be converted back to type float before the subtraction
     // can be performed. The difference between f and ( int ) f is the
     // fractional part of f , which was dropped during the cast.
     // Cast expressions enable us to document type conversions that would take

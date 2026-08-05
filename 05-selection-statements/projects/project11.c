@@ -34,14 +34,14 @@ int main(void)
     {
         switch (tens) 
         {
-            case 2: printf("twenty\n"); break;
-            case 3: printf("thirty\n"); break;
-            case 4: printf("forty\n"); break;
-            case 5: printf("fifty\n"); break;
-            case 6: printf("sixty\n"); break;
-            case 7: printf("seventy\n"); break;
-            case 8: printf("eighty\n"); break;
-            case 9: printf("ninety\n"); break;
+            case 2: printf("twenty"); break;
+            case 3: printf("thirty"); break;
+            case 4: printf("forty"); break;
+            case 5: printf("fifty"); break;
+            case 6: printf("sixty"); break;
+            case 7: printf("seventy"); break;
+            case 8: printf("eighty"); break;
+            case 9: printf("ninety"); break;
         }
         if (ones != 0) 
         {

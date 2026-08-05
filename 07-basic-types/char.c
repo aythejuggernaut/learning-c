@@ -11,6 +11,19 @@ int main(void) {
         // putchar(ch);
     }while(ch != '\n');
 
+    // Also, a small improvement: getchar() actually returns an int, not a
+    // char, so it can represent the special value EOF (-1). A more idiomatic
+    // version is:
+
+    // int ch;
+    // while ((ch = getchar()) != EOF) {
+    //     printf("%c is %d\n", ch, ch);
+    //     if (ch == '\n')
+    //         break;
+    // }
+
+    // This correctly handles end-of-file as well as ordinary characters.
+
     return 0;
 }
 

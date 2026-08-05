@@ -15,7 +15,7 @@ int main(void) {
         printf("Number added.  Enter next number (0 to terminate): ");
     }
     printf("The sum is %ld\n", sum);
-   
+    
     return 0;
 }
 

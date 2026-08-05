@@ -9,7 +9,6 @@ int main(void) {
     // writing an initializer in this fashion is tedious and error-prone (what 
     // if there were 200 zeros between two of the nonzero values?).
 
-
     // C99's designated initializers can be used to solve this problem.
     // Each number in brackets is said to be a designator.
     int b[15] = { [2] = 29, [9] = 7, [14] = 48 };

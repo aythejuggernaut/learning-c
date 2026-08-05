@@ -17,7 +17,7 @@ int main(void) {
     
     for (int i = 0; i < N; i++) {
         printf("a[%d] = ", i);
-    }
+    }  
 
     // This loop will go out of bounds by 1 index. It will try to access a[10]
     // when the array is only indexed from 0 to 9. It may cause a crash

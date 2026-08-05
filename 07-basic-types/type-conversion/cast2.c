@@ -10,7 +10,7 @@ int main(void){
     float f = 3.14;
     int i = (int) f; // i will be 3
 
-    //Conversely, we can convert an int to a float:
+    // Conversely, we can convert an int to a float:
     int i = 3;
     float f = (float) i; // f will be 3.0
 
